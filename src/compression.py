@@ -41,7 +41,7 @@ def redundantVertexElimination(G, commonNeighbors = 10) -> nx.Graph:
   for (u,v) in zip(vertexToMerge[0::2], vertexToMerge[1::2]):
 
     reducedG = nx.contracted_nodes(reducedG,u,v) ## I merge the found nodes
-    out.write("Merged nodes: " + str(u) + " and " + str(v) + "\n")
+    out.write("Merged nodes: " + str(u) + " and " + str(v) + " into node " + str(u) + "\n")
 
   out.close()
 

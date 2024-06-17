@@ -1,0 +1,11 @@
+Merged nodes: 0 and 1 into node 0
+Merged nodes: 2 and 4 into node 2
+Merged nodes: 3 and 6 into node 3
+Merged nodes: 5 and 8 into node 5
+Merged nodes: 7 and 9 into node 7
+Merged nodes: 10 and 12 into node 10
+Merged nodes: 11 and 25 into node 11
+Merged nodes: 13 and 17 into node 13
+Merged nodes: 14 and 16 into node 14
+Merged nodes: 34 and 41 into node 34
+Merged nodes: 35 and 40 into node 35
