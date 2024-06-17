@@ -26,7 +26,7 @@ __o__ is the file where the compressed graph will be written in output format.
 
 ### Two example files: example1.py and example2.py are provided which just need to be run. 
 
-### They will apply the same functions as the gCompress script but with fixed paramter and graph.
+### They will apply the same functions as the gCompress script but with fixed parameters and graph.
 
 ### At the end they will display the full and the compressed graph near each other with "important" nodes highlighted in red.
 
