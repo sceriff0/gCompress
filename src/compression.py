@@ -2,7 +2,7 @@ import networkx as nx
 import numpy as np
 import itertools
 
-def redundantVertexElimination(G, commonNeighbors = 10) -> nx.Graph:
+def redundantVertexElimination(G: nx.Graph, commonNeighbors:int = 10) -> nx.Graph:
   
   """
   This function merges nodes that have a minimum number of common neighbors
