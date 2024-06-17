@@ -3,9 +3,7 @@
 
 ### This script may be used to compress a graph provided in _edgelist_ format.
 
-### Two example files: example1.py and example2.py are provided which just need to be run. They display the same graph compressed with 
-### different parameters. In particular the secondo one has a higher parameter n of nodes that will be for sure kept and higher
-### beta that increases the importance of local neighborhood.
+### Two example files: example1.py and example2.py are provided which just need to be run. They display the same graph compressed with different parameters. In particula the secondo one has a higher parameter n of nodes that will be for sure kept and higher beta that increases the importance of local neighborhood.
 
 ### To run the script just do
 ```
