@@ -24,7 +24,7 @@ __o__ is the file where the compressed graph will be written in output format.
 
 ### If m is specified a file merge.txt will be generated that contains info on the merged nodes.
 
-### Two example files: example1.py and example2.py are provided which just need to be run. 
+### Three example files: example1.py, example2.py and example3.py are provided which just need to be run. 
 
 ### They will apply the same functions as the gCompress script but with fixed parameters and graph.
 
