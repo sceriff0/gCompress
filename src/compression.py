@@ -2,7 +2,7 @@ import networkx as nx
 import numpy as np
 import itertools
 
-def redundantVertexElimination(G, outputFile = "out.txt", commonNeighbors = 10) -> nx.Graph:
+def redundantVertexElimination(G, commonNeighbors = 10) -> nx.Graph:
   
   """
   This function merges nodes that have a minimum number of common neighbors
@@ -18,7 +18,7 @@ def redundantVertexElimination(G, outputFile = "out.txt", commonNeighbors = 10) 
 
   
   reducedG = G
-  out = open(outputFile, "w")
+  out = open("merge.txt", "w")
 
   adjMat = nx.to_pandas_adjacency(G)
   twoHopMat = np.linalg.matrix_power(adjMat,n=2) ## This matrix gives me all nodes two nodes apart
