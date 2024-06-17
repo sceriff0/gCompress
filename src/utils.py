@@ -11,7 +11,7 @@ def parseArgs() -> argparse.Namespace:
   parser = argparse.ArgumentParser( 
                     prog='gCompress',
                     description='A program to compress your graph :)',
-                    epilog= "https://github.com/sceriff0/gCompress")
+                    epilog= "FOR MUCH MORE INFO: https://github.com/sceriff0/gCompress")
   
   parser.add_argument('graph', type=str)           
   parser.add_argument('-n', '--nodes', type=int, help= "The number of core nodes that will be kept")     
