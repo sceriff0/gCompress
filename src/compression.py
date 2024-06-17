@@ -1,4 +1,9 @@
-import networkx as nx
+try:
+    import networkx as nx
+except ModuleNotFoundError:
+    print("module 'networkX' is not installed")
+    quit()
+
 import numpy as np
 import itertools
 
