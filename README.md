@@ -7,7 +7,7 @@
 
 ### To run the script just do:
 ```
-python main.py <graphFile.txt> -n <nodeToKeep> -b <betaParameter> -m <mergeParameter> -o <outFile>
+python gCompress.py <graphFile.txt> -n <nodeToKeep> -b <betaParameter> -m <mergeParameter> -o <outFile>
 ```
 
 ### Where
