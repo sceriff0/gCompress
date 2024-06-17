@@ -14,11 +14,10 @@ python gCompress.py <graphFile.txt> -n <nodeToKeep> -b <betaParameter> -m <merge
 
 ### Where
 
-n is the number of nodes that will be kept and connected if possible.
+__n__ is the number of nodes that will be kept and connected if possible.
 
+__b__ is the parameter that influences the chosen n nodes.
 
-b is the parameter that influences the chosen n nodes.
+__m__ is the paramenter that control wether to perform node merging of nodes with at least m neighbors. This is pretty slow.
 
-m is the paramenter that control wether to perform node merging of nodes with at least m neighbors. This is pretty slow.
-
-o is the file where the compressed graph will be written in output format.
+__o__ is the file where the compressed graph will be written in output format.
