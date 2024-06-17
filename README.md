@@ -13,6 +13,10 @@ python main.py <graphFile.txt> -n <nodeToKeep> -b <betaParameter> -m <mergeParam
 ### Where
 
 n is the number of nodes that will be kept and connected if possible
+
+
 b is the parameter that influences the chosen n nodes.
+
 m is the paramenter that control wether to perform node merging of nodes with at least m neighbors. This is pretty slow.
+
 o is the file where the compressed graph will be written in output format.
