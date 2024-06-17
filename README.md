@@ -21,3 +21,5 @@ __b__ is the parameter that influences the chosen n nodes.
 __m__ is the paramenter that control wether to perform node merging of nodes with at least m neighbors. This is pretty slow.
 
 __o__ is the file where the compressed graph will be written in output format.
+
+### If m is specified a file merge.txt will be generated that contains info on the merged nodes.
