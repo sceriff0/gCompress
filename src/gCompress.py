@@ -2,7 +2,6 @@ import networkx as nx
 import compression
 import utils
 
-seed = 0
 args = utils.parseArgs()
 
 G = nx.read_edgelist(args.graph)
