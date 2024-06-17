@@ -3,6 +3,8 @@
 
 ### This script may be used to compress a graph provided in _edgelist_ format.
 
+### It is based on: Gilbert and Levchenko: “Compressing Network Graphs”. 
+
 ### Graphs from StringDB may be compressed but the header has to be manually removed.
 
 ### Two example files: example1.py and example2.py are provided which just need to be run. They display the same graph compressed with different parameters. In particula the second one has a higher parameter n of nodes that will be kept for sure and a higher beta which will increase the importance of the local neighborhood.
