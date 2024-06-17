@@ -2,6 +2,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import compression
 
+print("For more info: https://github.com/sceriff0/gCompress")
+
 seed = 0
 G = nx.powerlaw_cluster_graph(1000,4,0.25,seed=seed)
 
